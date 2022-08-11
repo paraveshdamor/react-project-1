@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 const Product = () => {
  
     const productbox = {
-        minWidth: '300px',
-        maxWidth: '300px',
+        minWidth: '250px',
+        maxWidth: '250px',
         color: "#000",
         backgroundColor: "white",
         padding: "5px",
@@ -18,7 +18,7 @@ const Product = () => {
     
     <div className='card my-2' style={productbox}>
         <NavLink to='/ProductDetail'>
-        <div className='d-flex p-2 justify-content-center' style={{height:'200px'}}>
+        <div className='d-flex p-2 justify-content-center' style={{height:'140px'}}>
             <img src='./images/handtowel.jpg'  style={{height:'100%',width:'100%'}} alt=''/>
         </div>
         </NavLink>
